@@ -114,10 +114,7 @@ int main(void)
 		LCD_Clear(BLUE);//清屏为蓝色
 		
 		LCD_Draw_Circle(120,120,100);//画圈，半径r=100
-		LCD_Draw_Circle(120,120,80);//画圈，半径r=80
-		LCD_Draw_Circle(120,120,60);//画圈，半径r=60
-		LCD_Draw_Circle(120,120,40);//画圈，半径r=40
-		LCD_Draw_Circle(120,120,20);//画圈，半径r=20
+
 		
 		HAL_Delay(1000);//延时1秒
 		LCD_Clear(BLACK);//清屏为黑色
